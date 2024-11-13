@@ -1474,7 +1474,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "66cb0fb48a1e45ed974120c6bc359843",
     "m_Id": 0,
-    "m_DisplayName": "Brightness",
+    "m_DisplayName": "Base Map Brightness",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
