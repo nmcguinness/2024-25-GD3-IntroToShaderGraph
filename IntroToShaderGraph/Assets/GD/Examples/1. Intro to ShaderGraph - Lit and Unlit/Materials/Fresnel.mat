@@ -64,11 +64,11 @@ Material:
     m_Ints: []
     m_Floats:
     - _Fresnel_Blend_Opacity: 1
-    - _Fresnel_Power: 6.99
+    - _Fresnel_Power: 10.1
     - _Normal_Strength: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Smoothness_Strength: 29.7
+    - _Smoothness_Strength: 32
     m_Colors:
     - _Base_Color: {r: 1, g: 1, b: 1, a: 1}
     - _Fresnel_Color: {r: 128, g: 23.524529, b: 0, a: 1}

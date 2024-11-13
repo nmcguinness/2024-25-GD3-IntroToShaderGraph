@@ -51,7 +51,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AO_Strength: 1
-    - _Normal_Strength: 1.35
+    - _Normal_Strength: 4.1
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:

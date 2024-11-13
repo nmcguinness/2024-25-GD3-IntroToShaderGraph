@@ -51,15 +51,15 @@ Material:
     m_Ints: []
     m_Floats:
     - _AO_Strength: 1
-    - _Edge_Width: 0.228
-    - _Hex_Scale: 1
-    - _Normal_Strength: 0.94
+    - _Edge_Width: 0.394
+    - _Hex_Scale: 0.633
+    - _Normal_Strength: 0.324
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Smoothness_Strength: 0.672
+    - _Smoothness_Strength: 0.818
     m_Colors:
     - _Base_Color: {r: 0.8415094, g: 0.21630248, b: 0.18894258, a: 1}
-    - _Tiling: {r: 8, g: 8, b: 0, a: 0}
+    - _Tiling: {r: 2, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &6629570954990524290
 MonoBehaviour:
