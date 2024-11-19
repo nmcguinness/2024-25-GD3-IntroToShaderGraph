@@ -68,7 +68,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AO_Strength: 1
-    - _Alpha_Threshold: 0.699
+    - _Alpha_Threshold: 0.837
     - _Normal_Strength: 0
     - _QueueControl: 0
     - _QueueOffset: 0
