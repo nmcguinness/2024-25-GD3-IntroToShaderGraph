@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7934545673230494527
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -20,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BNA Mapping Variant - Tile
+  m_Name: BNA Mapping Variant
   m_Shader: {fileID: -6465566751694194690, guid: 25f75b3d6852e3d4d9323249983e7bb5,
     type: 3}
   m_Parent: {fileID: 2100000, guid: 2dfe651e726253e4daac552dad34d65f, type: 2}
@@ -38,26 +25,38 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _AO_Map:
-        m_Texture: {fileID: 2800000, guid: 8c2057e9ce614dc449cec786030e9fad, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2007b4c3f7d970845809509395cb4562, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Base_Map:
-        m_Texture: {fileID: 2800000, guid: ecf375e4a6468094791ef493bac5cecc, type: 3}
+        m_Texture: {fileID: 2800000, guid: c3d0c350796adb54fb90ddd7d32b7eb6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal_Map:
-        m_Texture: {fileID: 2800000, guid: 98dd0e06393efae49b61a7db83cd47cb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1ee371bbbb0d5a6418789a9ab7589827, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _Enable_UV_Scrolling: 0
-    - _Offset_Amplitude: 0.01
-    - _Offset_Speed: 5.2
-    - _Smoothness: 0.62
-    - _Use_Triangle_Wave: 0
+    - _Normal_Strength: 1.68
+    - _Offset_Speed: 0.2
+    - _Smoothness: 0.643
     m_Colors:
     - _Base_Color: {r: 1, g: 1, b: 1, a: 1}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _Tiling: {r: 4, g: 4, b: 0, a: 0}
+    - _Tiling: {r: 2, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []
+--- !u!114 &4208568316898456857
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

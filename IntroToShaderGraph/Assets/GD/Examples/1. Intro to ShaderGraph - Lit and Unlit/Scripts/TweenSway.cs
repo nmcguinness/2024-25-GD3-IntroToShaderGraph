@@ -1,12 +1,10 @@
 using DG.Tweening;
-using DG.Tweening.Core;
-using DG.Tweening.Plugins.Options;
 using UnityEngine;
 
 /// <summary>
 /// This script makes a light sway over time around a user-defined axis using DOTween.
 /// </summary>
-[RequireComponent(typeof(Light))]
+//[RequireComponent(typeof(Light))]
 public class TweenSway : MonoBehaviour
 {
     [SerializeField, Tooltip("The ease function to use for the sway.")]

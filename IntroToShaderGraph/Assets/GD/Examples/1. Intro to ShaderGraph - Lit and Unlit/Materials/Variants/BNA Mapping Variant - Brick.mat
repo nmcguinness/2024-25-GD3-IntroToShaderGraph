@@ -29,6 +29,7 @@ Material:
     - _Normal_Strength: 2
     - _Offset_Amplitude: 0.034
     - _Offset_Speed: 0.3
+    - _Smoothness: 0.639
     - _Use_Triangle_Wave: 0
     m_Colors:
     - _Base_Color: {r: 0.7132075, g: 0.62843, b: 0.62843, a: 1}

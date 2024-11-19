@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4114339300287312549
+--- !u!114 &-6564542536596010846
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Procedural - Hex
+  m_Name: Procedural - Herringbone - Other
   m_Shader: {fileID: -6465566751694194690, guid: 958939fc4036562478c9284e161471f6,
     type: 3}
   m_Parent: {fileID: 2100000, guid: 31759faafbf082c4697aaacdc0070587, type: 2}
@@ -39,12 +39,10 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _Normal_Strength: 0.91
-    - _Scale: 0.883
-    - _Smoothness_Strength: 0.547
-    - _Width: 0.092
+    - _UseHex: 0
+    - _Width: 0.368
     m_Colors:
-    - _Base_Color: {r: 0.34538507, g: 0.5584905, b: 0.044257797, a: 1}
-    - _Emissive_Color: {r: 60.016045, g: 9.392597, b: 69.139915, a: 0}
-    - _Tiling: {r: 5, g: 5, b: 0, a: 0}
+    - _Base_Color: {r: 0.19890365, g: 0.5245282, b: 0.14548235, a: 1}
+    - _Emissive_Color: {r: 4.9579473, g: 2.0247116, b: 2.4147854, a: 0}
+    - _Tiling: {r: 6, g: 18, b: 0, a: 0}
   m_BuildTextureStacks: []

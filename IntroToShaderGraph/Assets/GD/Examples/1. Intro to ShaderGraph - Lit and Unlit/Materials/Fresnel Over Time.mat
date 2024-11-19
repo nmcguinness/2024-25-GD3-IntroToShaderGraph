@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Parallax Occlusion Mapping
-  m_Shader: {fileID: -6465566751694194690, guid: 93439707566c39342914d47c8356c47a,
+  m_Name: Fresnel Over Time
+  m_Shader: {fileID: -6465566751694194690, guid: 8ce06acf83a91884cb79e643ad0504b6,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -25,23 +25,15 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Base_Map:
-        m_Texture: {fileID: 2800000, guid: f21be3330cfb54f409cca56c035f3fbc, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Diffuse_Map:
-        m_Texture: {fileID: 2800000, guid: d052d5ed3fce67140a2d38b8daf5278a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Height_Map:
-        m_Texture: {fileID: 2800000, guid: 30254f7249e94b445b59d8b227d2a6b5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4b6e64f0388edd641a2e337ee6517c99, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal_Map:
-        m_Texture: {fileID: 2800000, guid: f9f997fcdfcc0ae4fb0683386aa87d80, type: 3}
+        m_Texture: {fileID: 2800000, guid: 163bfdc2a71266c47a2482808d10b137, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Smoothness_Map:
-        m_Texture: {fileID: 2800000, guid: 30254f7249e94b445b59d8b227d2a6b5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 684d2652407946e41b097c029979544a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -58,20 +50,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Base_Map_Brightness: 1
-    - _Base_Map_Strength: 0.72
-    - _Brightness: 1
-    - _Normal_Strength: 1
-    - _POM_Amplitude: 5.89
-    - _POM_Steps: 16
+    - _Fresnel_Power: 0.98
+    - _Fresnel_Speed_Multiplier: 2.96
+    - _Normal_Strength: 3.95
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Smoothness: 0.518
-    - _Smoothness_Strength: 7
+    - _Smoothness_Strength: 1
     m_Colors:
-    - _Tiling: {r: 4, g: 4, b: 0, a: 0}
+    - _Base_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Fresnel_Color: {r: 0.6871492, g: 10.116367, b: 0.93331397, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &4808661044985088193
+--- !u!114 &924610377978844979
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
