@@ -38,6 +38,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AO_Strength: 1
     - _Enable_UV_Scrolling: 0
     - _Normal_Strength: 1.68
     - _Offset_Speed: 0.2

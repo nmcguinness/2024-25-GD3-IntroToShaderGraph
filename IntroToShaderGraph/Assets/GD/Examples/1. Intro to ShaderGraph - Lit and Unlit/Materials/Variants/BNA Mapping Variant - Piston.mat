@@ -41,8 +41,8 @@ Material:
     - _AO_Strength: 1
     - _Enable_UV_Scrolling: 1
     - _Normal_Strength: 1.72
-    - _Offset_Amplitude: 0.4
-    - _Offset_Speed: 0.6
+    - _Offset_Amplitude: 0.254
+    - _Offset_Speed: 1.2
     - _Smoothness: 0.579
     - _Use_Triangle_Wave: 0
     m_Colors:

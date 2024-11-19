@@ -62,14 +62,14 @@ Material:
     - _Base_Map_Strength: 0.72
     - _Brightness: 1
     - _Normal_Strength: 1
-    - _POM_Amplitude: 5.89
-    - _POM_Steps: 16
+    - _POM_Amplitude: 5.94
+    - _POM_Steps: 8
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Smoothness: 0.518
     - _Smoothness_Strength: 7
     m_Colors:
-    - _Tiling: {r: 4, g: 4, b: 0, a: 0}
+    - _Tiling: {r: 8, g: 8, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &4808661044985088193
 MonoBehaviour:

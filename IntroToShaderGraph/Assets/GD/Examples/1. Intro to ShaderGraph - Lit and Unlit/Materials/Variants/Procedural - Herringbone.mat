@@ -26,7 +26,7 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _Scale: 0.4
+    - _Scale: 0.322
     - _UseHex: 0
     - _Width: 0.685
     m_Colors:

@@ -40,8 +40,9 @@ Material:
     m_Ints: []
     m_Floats:
     - _Normal_Strength: 0.91
-    - _Scale: 0.868
+    - _Scale: 0.837
     - _Smoothness_Strength: 0.547
+    - _UseHex: 1
     - _Width: 0.066
     m_Colors:
     - _Base_Color: {r: 0.34538507, g: 0.5584905, b: 0.044257797, a: 1}
